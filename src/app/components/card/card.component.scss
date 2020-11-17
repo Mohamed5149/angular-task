@@ -1,0 +1,27 @@
+.card-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 20rem;
+    float: right;
+    .card-color{
+        width: 4px;
+        height: 35px;
+        &.blue{
+            background-color: blue;
+        }
+        &.orange{
+            background-color:orange;
+        }
+    }
+    .card-info{
+        &-header{
+            font-weight: bold;
+        }
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        color: #707070;
+        margin-inline-end: 0.5rem;
+    }
+}

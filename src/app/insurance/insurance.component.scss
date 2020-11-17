@@ -1,0 +1,94 @@
+.insurance-container{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 14px 14px 14px 14px rgba(24, 29, 53, 0.06);
+    align-items: center;
+    
+    .insurance-container-details{
+        .divider{
+            background-color:#009cf6 ;
+            width: 93px;
+            height: 4px;
+            border-radius: 4px;
+        }
+        &-def{
+            &-header{
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #009cf6;
+            }
+            &-text{
+                color: #565B6E;
+                font-size: 1rem;
+            }
+        }
+        .insurance-container-sub{
+            padding: 2%;
+            background-color: lightblue;
+            border-radius: 10px;
+            display: flex;
+            width: 100%;
+            &-form{
+                margin-inline-start: 1rem;
+                &-header{
+                    color: #009cf6;
+                    font-size: 1rem;
+                    font-weight: bold;
+                }
+                input{
+                    border: unset;
+                    border-radius: 1rem;
+                    padding: 0.5rem;
+                    margin-inline-end: 1rem;
+                }
+                .send-btn{
+                    background-color: #f58828;
+                    color: white;
+                    border: unset;
+                    border-radius: 1rem;
+                    padding:.5rem 2rem 0.5rem 2rem;
+                    font-weight: bold;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width:426px) {
+    .insurance-container{
+        flex-direction: column-reverse;
+        &-details{
+            &-def{
+                border-radius: 10px;
+                padding: 1rem;
+                box-shadow: 7px 7px 7px 7px rgba(24, 29, 53, 0.06);
+            }
+        }
+        &-sub{
+            width: unset !important;
+            background-color: unset !important;
+            margin-top: 1rem;
+            &-form{
+                    input{
+                        width: 100%;
+                        position: relative;
+                        left: 15%;
+                        border: 1px solid #F9F9F9 !important;
+                        margin-top: 1rem;
+                    }
+                    .send-btn{
+                        margin-top: 1rem;
+                        width: 108%;
+                        position: relative;
+                        left: 15%;
+                    }
+                
+            }
+        }
+    
+    }
+}

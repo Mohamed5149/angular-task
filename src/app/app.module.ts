@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InsuranceComponent } from './insurance/insurance.component';
+import { InstallmentsReqComponent } from './installments-req/installments-req.component';
+import { CardComponent } from './components/card/card.component';
+import { OccordionComponent } from './components/occordion/occordion.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InsuranceComponent,
+    InstallmentsReqComponent,
+    CardComponent,
+    OccordionComponent
   ],
   imports: [
     BrowserModule,

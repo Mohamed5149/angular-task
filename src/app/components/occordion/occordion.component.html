@@ -1,0 +1,5 @@
+<button (click)="openReq()" class="accordion">تفاصيل الطلب</button>
+<div [class]="reqIsOpen ? 'panel active' : 'panel'">
+    <app-card *ngFor="let item of data; let i=index" [cardType]="'blue'" [cardHeader]="item.type"
+        [cardInfo]="item.value"></app-card>
+</div>

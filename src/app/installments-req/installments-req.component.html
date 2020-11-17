@@ -1,0 +1,10 @@
+<div class="installment-container">
+    <span>طلب تقسيط سيارة</span>
+    <div class="request-main">
+        <app-card *ngFor="let req of mainReq; let i=index" [cardType]="'orange'" [cardHeader]="req.type"
+            [cardInfo]="req.value"></app-card>
+    </div>
+    <div class="request-details">
+        <app-occordion [data]="occordionData"></app-occordion>
+    </div>
+</div>
