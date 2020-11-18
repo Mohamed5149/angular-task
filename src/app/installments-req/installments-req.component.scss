@@ -1,3 +1,35 @@
 .installment-container{
     text-align: right;
+    padding: 1rem;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 14px 14px 14px 14px rgba(24, 29, 53, 0.06);
+        &-header{
+        display: inline-block;
+        direction: rtl;
+        &-text{
+            font-size: 1rem;
+            color: #009cf6;
+            font-weight: bold;
+        }
+    }
+    .divider{
+        background-color:#009cf6 ;
+        width: 50px;
+        height: 4px;
+        border-radius: 4px;
+    }
+    .request-main{
+        border-bottom: 1px solid #F9F9F9;
+        padding: 1rem 0rem 4rem 0rem;
+    }
+}
+
+@media (max-width:426px) {
+    .installment-container{
+        .divider{
+            visibility: hidden;
+        }
+    }
+
 }

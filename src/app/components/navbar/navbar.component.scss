@@ -1,0 +1,14 @@
+.navbar{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    .btn{
+        padding: 0.5rem;
+        border: unset;
+        border-radius: 10px;
+        background-color: #565B6E;
+        margin-inline-end: 1rem;
+        color: white;
+        cursor: pointer;
+    }
+}

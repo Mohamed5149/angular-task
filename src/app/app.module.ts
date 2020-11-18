@@ -7,6 +7,7 @@ import { InsuranceComponent } from './insurance/insurance.component';
 import { InstallmentsReqComponent } from './installments-req/installments-req.component';
 import { CardComponent } from './components/card/card.component';
 import { OccordionComponent } from './components/occordion/occordion.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { OccordionComponent } from './components/occordion/occordion.component';
     InsuranceComponent,
     InstallmentsReqComponent,
     CardComponent,
-    OccordionComponent
+    OccordionComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

@@ -7,8 +7,7 @@
     border-radius: 10px;
     box-shadow: 14px 14px 14px 14px rgba(24, 29, 53, 0.06);
     align-items: center;
-    
-    .insurance-container-details{
+    &-details{
         .divider{
             background-color:#009cf6 ;
             width: 93px;
@@ -66,6 +65,9 @@
                 border-radius: 10px;
                 padding: 1rem;
                 box-shadow: 7px 7px 7px 7px rgba(24, 29, 53, 0.06);
+            }
+            .divider{
+                visibility: hidden;
             }
         }
         &-sub{
